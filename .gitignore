@@ -1,0 +1,17 @@
+node_modules/
+dist/
+reports/screenshots/*
+reports/logs/*
+reports/html-reports/*
+!reports/screenshots/.gitkeep
+!reports/logs/.gitkeep
+!reports/html-reports/.gitkeep
+.env
+.env.local
+*.log
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+coverage/

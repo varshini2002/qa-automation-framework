@@ -1,0 +1,27 @@
+{
+  "name": "qa-automation-framework",
+  "version": "1.0.0",
+  "description": "QA Automation Framework - Playwright + Cucumber + Custom API",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js src/features",
+    "test:ui": "cucumber-js src/features/ui",
+    "test:api": "cucumber-js src/features/api",
+    "start:api": "cd api-server && npm run start",
+    "dev:api": "cd api-server && npm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.5.1",
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "playwright": "^1.40.1"
+  }
+}
